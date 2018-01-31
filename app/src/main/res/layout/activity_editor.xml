@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    tools:context="com.example.android.bookinventoryappstage2.Editor">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/book_image"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:src="@drawable/book_thick_generic" />
+
+        <Button
+            android:id="@+id/image_change_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:text="@string/change_image" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/book_name" />
+
+        <EditText
+            android:id="@+id/book_name_edit_text_view"
+            style="@style/EditorFieldStyle"
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:hint="@string/name"
+            android:inputType="textCapWords" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_measurement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/price" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5">
+
+            <EditText
+                android:id="@+id/price_edit_text_view"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/price_"
+                android:inputType="numberSigned" />
+
+            <TextView
+                style="@style/EditorUnitsStyle"
+                android:text="@string/dollar" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/Quantity" />
+
+        <EditText
+            android:id="@+id/quantity_edit_text_view"
+            style="@style/EditorFieldStyle"
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:hint="@string/Quantity_"
+            android:inputType="numberSigned" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/supplier_name" />
+
+        <EditText
+            android:id="@+id/supplier_name_edit_text_view"
+            style="@style/EditorFieldStyle"
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:hint="@string/name"
+            android:inputType="textCapWords" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/supplier_email" />
+
+        <EditText
+            android:id="@+id/supplier_email_edit_text_view"
+            style="@style/EditorFieldStyle"
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:hint="@string/email_"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/supplier_phone" />
+
+        <EditText
+            android:id="@+id/supplier_number_edit_text_view"
+            style="@style/EditorFieldStyle"
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:hint="@string/number_"
+            android:inputType="numberSigned" />
+    </LinearLayout>
+
+</LinearLayout>

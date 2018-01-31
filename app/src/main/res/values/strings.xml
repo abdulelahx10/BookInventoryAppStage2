@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Books Inventory</string>
+    <string name="product_detail">Product Detail</string>
+    <string name="product_edit">Product Edit</string>
+    <string name="product_add">Product Add</string>
+    <string name="empty_view_title_text">There\'s no books in the database</string>
+    <string name="empty_view_subtitle_text">Get started by clicking the plus icon to add a book</string>
+    <string name="SALE">SALE</string>
+    <string name="book_name">Book Name:</string>
+    <string name="price">Price:</string>
+    <string name="Quantity">Quantity:</string>
+    <string name="increase_decrease">Increase/Decrease Quantity by</string>
+    <string name="increase">+</string>
+    <string name="decrease">-</string>
+    <string name="one">1</string>
+    <string name="supplier_info">Supplier Information:</string>
+    <string name="supplier_name">Supplier Name:</string>
+    <string name="supplier_email">Supplier Email:</string>
+    <string name="supplier_phone">Supplier Phone Number:</string>
+    <string name="change_image">Click to change image</string>
+    <string name="order">ORDER MORE</string>
+    <string name="name">Name</string>
+    <string name="price_">Price</string>
+    <string name="dollar">$</string>
+    <string name="Quantity_">Quantity</string>
+    <string name="email_">Email</string>
+    <string name="email_supplier">Send email to the supplier</string>
+    <string name="call_supplier">Call supplier number</string>
+    <string name="options">Select your option:</string>
+    <string name="number_">Phone Number</string>
+    <string name="out_of_stock">Out of stock</string>
+    <string name="negative_value">ERROR: cannot go below 0</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="delete_dialog_msg">Delete this book?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_Book_successful">Book deleted</string>
+    <string name="delete_Book_failed">Error with deleting book</string>
+    <string name="insert_book_successful">Book saved</string>
+    <string name="insert_book_failed">Error with saving book</string>
+    <string name="update_book_successful">Book updated</string>
+    <string name="update_book_failed">Error with updating book</string>
+    <string name="mail_intent_type">message/rfc822</string>
+    <string name="no_email_client">"There are no email clients installed."</string>
+    <string name="need_product">Need more product</string>
+    <string name="send_product">Send more product</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="failed">Failed!</string>
+    <string name="fields_empty">ERROR can\'t save, some fields are empty</string>
+
+
+
+
+
+</resources>
